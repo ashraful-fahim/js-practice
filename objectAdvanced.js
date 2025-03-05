@@ -18,7 +18,7 @@ person.age = 25; //result
 
 
 
-const keys = Object.keys(person);
-const values = Object.values(person);
-const entries = Object.entries(person);
+const keys = Object.keys(person); 
+const values = Object.values(person); 
+const entries = Object.entries(person);  //returns all the entries of an objects in arrays in an array
 console.log(keys, values, entries);
