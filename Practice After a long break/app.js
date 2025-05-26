@@ -29,3 +29,28 @@ for (let index = 0; index < friends.length; index++) {
     const element = friends[index];
     console.log(element)
 }
+
+
+function sum(a,b){
+    console.log(arguments)
+    console.log(...arguments)
+    const result = a + b;
+    return result;
+}
+
+const output = sum(6,9);
+console.log(output);
+console.log(sum.length) //length of a function
+
+
+
+const person = {
+    name : "Fahim",
+    age : 25,
+    friends : friends
+}
+
+person.name = "HERO ALOM";
+
+console.log(person)
+console.log(person.friends[2])
