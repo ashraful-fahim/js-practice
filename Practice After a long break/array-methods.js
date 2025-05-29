@@ -8,11 +8,11 @@ const products = [
 
 const result = products.map(product => product.brand);
 console.log(result)
-// map returns a specific array
+// map returns a specific array. We use map to create a new array using the existing array of object.
 
 
 products.forEach(product => console.log(product.name));
-//forEach method doesn't return anything. It is used for internal processing
+//forEach method doesn't return anything. It is used for internal processing.
 
 
 const filter = products.filter(product => product.price >=5000)
@@ -22,3 +22,5 @@ console.log(filter);
 
 const find = products.find(product => product.brand === "apple");
 console.log(find);
+//find returns an object which matches the given condition. Find returns only a single object.
+
